@@ -14,6 +14,32 @@
   <title>Document</title>
 </head>
 <body>
-  
+  <div class="container">
+    <div class="jumbotron">
+      <h1>Movie Theatre</h1>
+        <p>Choose a movie that you want to watch!</p>
+    </div>
+    <form class="movie">
+      <label for="movie">Choose a Movie:</label>
+      <select id="movies" name="movies">
+        <option value="Jaws">Jaws</option>
+        <option value="The Mummy">The Mummy</option>
+        <option value="The Last Ice">The Last Ice</option>
+        <option value="The Passion of the Christ">The Passion of the Christ</option>
+      </select>
+      <label for="time">Pick a show time:</label>
+      <select id="time" name="time">
+        <option value="morning">Morning</option>
+        <option value="afternoon">Afternoon</option>
+        <option value="night">Night</option>
+      </select>
+      <label for="age">Choose your age:</label>
+      <select id="age" name="age">
+        <option value="kid">18 or under</option>
+        <option value="adult">18 - 65</option>
+        <option value="senior">65 or above</option>
+      </select>
+    </form>
+  </div>
 </body>
 </html>
